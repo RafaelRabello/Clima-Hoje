@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Clima Tempo feito com uso da OpenWeatherAPI.
 
-[🔗 Clique aqui para acessar](https://rafaelrabello.github.io/Clima-Hoje/)
+[🔗 Clique aqui para acessar]()
 
 # 📱 Contato
 rafaeluzan@live.com
