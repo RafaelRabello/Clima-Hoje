@@ -1,4 +1,6 @@
-![img](assets/favicon.ico)
+<p align='center'>
+  <img src="assets/favicon.ico">
+</p>
 
 # Clima Hoje!
 
