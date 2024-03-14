@@ -2,21 +2,25 @@
 
 * {
     font-family: Arial;
-    text-align: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
 }
 
 body {
-   background-image: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+   background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 body h1 {
-    text-align: center;
-    color: rgb(25, 0, 255);
+    color: rgb(17, 7, 114);
 }
 
 body input {
     border: solid 2px #000;
     border-radius: 5px;
+    text-align: center;
 }
 
 body button {

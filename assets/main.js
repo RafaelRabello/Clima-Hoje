@@ -5,9 +5,17 @@ const place = document.getElementById('place')
 const degrees = document.getElementById('degrees')
 const wind = document.getElementById('wind')
 const humidity = document.getElementById('humidity')
+const content = document.getElementById('content')
 
 button.addEventListener("click", () => {
   if (!input.value) return;
+
+  content.style.background = 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,29,147,1) 0%, rgba(249,255,0,1) 90%)'
+  content.style.width = '20pc'
+  content.style.paddingTop = '1px'
+  content.style.borderRadius = '10px'
+  content.style.marginTop = '10px'
+  content.style.textAlign = 'center'
 
   getDataApi();
 });
@@ -36,4 +44,3 @@ function loadData(data) {
   wind.innerHTML = `Velociade do Vento: ${data.wind.speed}Km/h`
   humidity.innerHTML = `Humidade do Ar: ${data.main.humidity}%`
 }
-
